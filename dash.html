@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/44e28fa336.js" crossorigin="anonymous"></script>
+    <style>
+        *{margin:0; padding:0; box-sizing: border-box;}
+        .head{background-color: rgb(40, 105, 146);
+        width: 100%; padding-top: 20px; padding-left: 20px;
+        display: flex; justify-content:cen; align-items: center;}
+       .hd{ background-color:rgb(40, 105, 146); 
+         padding:0px; 
+         margin-left:5px;
+        }
+        h4{padding:0px; margin-right: 0px; color: white;} 
+        h6{padding:0px; margin:0px; color: rgb(95, 221, 221);}
+    
+        .img1{ border-radius: 60%; border: 1px solid wheat; width: 60px; height: 60px;}
+        .div{background-color:rgb(22, 22, 116); color: white;
+        width:220px;padding-bottom: 10px;
+    text-align:left;}
+    .gn{border-bottom: 1px solid deeppink; padding-bottom: 15px; padding-top: 10px;
+    padding-left: 20px;}
+    .gn:hover{
+        background-color: rgb(195, 0, 255); text-decoration: underline red 1px; cursor: pointer;
+    }
+    h5{padding-top: 10px; padding-bottom: 20px; text-align: left;
+    padding-left: 20px;}
+    h5:hover{background-color: blueviolet; text-decoration: underline brown 1px; cursor:pointer}
+    i{padding-right: 10px; color: aquamarine;}
+    .fa-gauge{color: rgb(241, 209, 26);}
+    .fa-w{color: rgb(145, 36, 36);}
+    .fa-elementor{color: rgb(133, 5, 133);}
+    .fa-table{color: rgb(243, 125, 243);}
+    .fa-apple-whole{color: rgb(9, 238, 162);}
+    .fa-address-book{color: rgb(165, 37, 37);}
+    .fa-copy{color: rgb(238, 158, 9);}
+    .fa-map{color:rgb(133, 5, 133);}
+    .fa-chart-simple{color: rgb(243, 125, 243);}
+    .fa-gear{color: rgb(248, 144, 8);}
+    .wholebody{display: flex;} 
+    .snd, .whole2 { width: 100%;} 
+  .snd header{background-color: rgb(3, 3, 32); display: flex; justify-content: space-between; 
+    align-items: center; padding:0px ; margin: 0px; width: 100%; flex-wrap: wrap;}
+    .dash{background-color: #ff8800; width: 25px; padding: 15px 25px;
+    justify-content: center; display: flex; align-items: center;}
+    .dash0{align-items: center;}
+    .fa-bars{color: white; font-size: 1.5em; padding-left: 10px;}
+    .fa-circle{color: rgb(136, 21, 121); font-size: 2em; margin-left: 5px;}
+    .plu{font-size: 2em;}
+    .dash2{align-items: center;}
+    .fa-bell, .fa-question, .fa-envelope{color: white; padding-right: 15px;}
+  .dash0{display: flex; }
+  .sndname{background-color: #ff8800; width:fit-content; display: flex; align-items: center;
+padding: 10px; }
+  .kay{padding-left: 5px;}
+  .img2{border: 2px solid white; border-radius: 50px}
+  .dash2{display: flex;}
+  .plu, .kay{color: white;}
+  .snd2{background-color: rgb(162, 162, 185); display: flex; justify-content: space-between; 
+    align-items: center; padding: 14px; color: rgb(60, 60, 107); font-size: 1.3em; width: 100%; display: flex;}
+    .rd{display: flex; margin-top: 10px;}
+  .social-card{
+    box-shadow: 0 0 12px #ff8800; width: max-content;  padding: 50px 60px; text-align: center; margin: 20px;
+    border-radius: 15px; 
+  }
+  .social-card i{font-size: 4em; padding: 5px;}
+  .social-card p {  padding: 5px;}
+  .social-card b{display: flex; padding-left: 20px; font-size: 1.5em; color: rgb(153, 48, 202);}
+  .cardtype{display: flex; justify-content:space-between;  }
+
+  .soc-media{display: flex; justify-content: space-between; width: 100%; align-items: center; padding: 20px;}
+  .face{background-color:  rgb(168, 168, 177); width: max-content; border-radius: 15px; margin-left: 0%;}
+  .fb{background-color: rgb(40, 40, 110); justify-content: center; align-items: center;
+   display: flex; padding: 40px 40px; border-top-right-radius: 15px; border-top-left-radius: 15px; }
+   .fr-fd{background-color:  rgb(168, 168, 177); justify-content: space-between;align-items: center;
+   display: flex; padding: 35px 30px; border-radius: 15px; }
+   .twit{background-color:  rgb(168, 168, 177);width: max-content; border-radius: 15px; }
+   .tw{background-color: rgb(35, 129, 146); justify-content: center; align-items: center;
+   display: flex; padding: 40px 50px; border-top-right-radius: 15px; border-top-left-radius: 15px;}
+   .fl-fd{background-color:  rgb(168, 168, 177); justify-content: space-between;align-items: center;
+   display: flex; padding: 35px 40px; border-radius: 15px;}
+   .lin{background-color:  rgb(168, 168, 177);width: max-content; border-radius: 15px;  }
+   .ln{background-color: rgb(28, 84, 94); justify-content: center; align-items: center;
+   display: flex; padding: 40px 40px; border-top-right-radius: 15px; border-top-left-radius: 15px;}
+   .fd-fd{background-color:  rgb(168, 168, 177); justify-content: space-between;align-items: center;
+   display: flex; padding: 35px 30px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+   .gopl{background-color:  rgb(168, 168, 177);width: max-content; border-radius: 15px; }
+   .gp{background-color: rgb(240, 98, 3); justify-content: center; align-items: center;
+   display: flex; padding: 40px 40px; border-top-right-radius: 15px; border-top-left-radius: 15px;}
+   .fu-fd{background-color:  rgb(168, 168, 177); justify-content: space-between;align-items: center;
+   display: flex; padding: 35px 30px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+   .fa-facebook, .fa-twitter,.fa-linkedin, .fa-google-plus-g{color: white; font-size: 3em;}
+
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicxe-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="wholebody">
+    <div class="fstphase">
+    <div class="head">
+        <p><img src="kay.jpg" class="img1" width="50px" height="50px"></p>
+    <div class="hd">
+        <h4>Kayode Adesola</h4> 
+        <h6>online</h6>
+    </div>
+</div>
+
+    <div class="div">
+    <h3 class="gn">General</h3>
+    <h5><i class="fa-solid fa-gauge" ></i>Dashboard</h5>
+    <h5><i class="fa-solid fa-w"></i>Widget</h5>
+    <h5><i class="fa-brands fa-elementor"></i>Elements</h5>
+    <h5><i class="fa-solid fa-table"></i>Tables</h5>
+    <h5><i class="fa-solid fa-apple-whole"></i>Apps</h5>
+    <h5><i class="fa-solid fa-bag-shopping"></i>Pricicng Tables</h5>
+    <h5><i class="fa-solid fa-address-book"></i>Contact</h5>
+    <h5><i class="fa-regular fa-copy"></i>Additional Pages</h5>
+    <h5><i class="fa-solid fa-map"></i>Map</h5>
+    <h5><i class="fa-solid fa-chart-simple"></i>Chart</h5>
+    <h5><i class="fa-solid fa-gear"></i>Settings</h5>
+    </div>
+   
+</nav>
+
+<section>
+</section>
+</div>
+<div class="whole2">
+<div class="snd phase">
+<header>
+    <div class="dash0">
+    <div class="dash"><i class="fa-solid fa-bars"></i></div>
+    <i class="fa-solid fa-circle"></i>
+    <p class="plu">Pluto</p>
+    </div>
+    <div class="dash2">
+    <i class="fa-solid fa-bell"></i>
+    <i class="fa-solid fa-question"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <div class="sndname">
+        <img src="adej.jpg" class="img2" width="30" height="30px">
+        <p class="kay">Kayode Adesola</p>
+    </div>
+    </div>
+</header>
+<div class="snd2"><b>Dashboard</b></div>
+</div>
+<div class="cardtype">
+        <div class="social-card">
+            <div class="icon"><i class="fa-solid fa-user"></i></div>
+            <div class="textcard"> <p><b>  2500</b> Welcome     ...</p></div>
+        </div>
+
+        <div class="social-card">
+            <div class="icon"><i class="fa-solid fa-clock"></i></div>
+            <div class="textcard"> <p><b>123.50</b>Average Time</p></div>
+        </div>
+
+        <div class="social-card">
+            <div class="icon"><i class="fa-solid fa-cloud-arrow-down"></i></div>
+            <div class="textcard"> <p><b>  1,805</b>Collections</p></div>
+        </div>
+
+        <div class="social-card">
+            <div class="icon"><i class="fa-solid fa-comment"></i></div>
+            <div class="textcard"> <p><b>54</b>Comments</div>
+        </div>
+
+</div>
+<div class="soc-media">
+    <div class="face">
+    <div class="fb"><i class="fa-brands fa-facebook"></i></div>
+    <div class="fr-fd"><b>35k</b>Friends
+                       <b>35k</b>Friends
+    </div> 
+    </div>
+    <div class="twit">
+        <div class="tw"><i class="fa-brands fa-twitter"></i></div>
+        <div class="fl-fd"><b>35k</b>Friends
+                           <b>35k</b>Friends
+        </div>
+    </div>  
+        <div class="lin">
+            <div class="ln"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="fd-fd"><b>35k</b>Friends
+                               <b>35k</b>Friends
+            </div>
+        </div>
+            <div class="gopl">
+                <div class="gp"><i class="fa-brands fa-google-plus-g"></i></div>
+                <div class="fu-fd"><b>35k</b>Friends
+                                   <b>35k</b>Friends
+                </div>
+            </div>        
+</div>  
+
+</div>
+</div>
+</div>
+</body>
+</html>
